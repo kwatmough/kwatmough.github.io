@@ -1,27 +1,36 @@
 .header{
 	position: absolute;
+	overflow-y: hidden;
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: purple;
+	height: 54px;
+	background-color: #7F00FF; /*violet*/
 	text-align: center;
 }
 
 .content{
-	position:absolute;
-    top: 80px;
-    bottom:50px;
-	left:50px;
-	right:50px;
-    overflow-y:scroll; 
+	position: absolute;
+    //overflow-y: scroll;
+	top: 55px;
+	right: 0;
+	width: 80%;
+	padding: 15px;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .footer{
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	padding: 1rem;
-	background-color: purple;
+	background-color: #7F00FF;
 	text-align: center;
+}
+
+.image{
+	text-indent: 30px;
+	font-style: italic;
 }
