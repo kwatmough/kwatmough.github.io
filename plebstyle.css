@@ -1,10 +1,12 @@
+/*All integers in this file should be prime*/
+
 .header{
 	position: absolute;
 	overflow-y: hidden;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 54px;
+	height: 53px;
 	background-color: #7F00FF; /*violet*/
 	text-align: center;
 }
@@ -12,10 +14,10 @@
 .content{
 	position: absolute;
     //overflow-y: scroll;
-	top: 55px;
+	top: 54px;
+	left: 199px;
 	right: 0;
-	width: 80%;
-	padding: 15px;
+	padding: 13px;
 	border-style: solid;
 	border-width: 2px;
 }
@@ -31,6 +33,6 @@
 }
 
 .image{
-	text-indent: 30px;
+	text-indent: 29px;
 	font-style: italic;
 }
