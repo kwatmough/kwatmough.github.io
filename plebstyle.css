@@ -7,13 +7,13 @@
 	left: 0;
 	right: 0;
 	height: 53px;
-	background-color: #7F00FF; /*violet*/
+	background-color: #7F02FB; /*violet*/
 	text-align: center;
 }
 
 .content{
 	position: absolute;
-	top: 54px;
+	top: 57px; /*not prime*/
 	left: 199px;
 	right: 0;
 	min-width: 449px;
@@ -28,7 +28,7 @@
 	left: 0;
 	right: 0;
 	padding: 1rem;
-	background-color: #7F00FF;
+	background-color: #7F02FB;
 	text-align: center;
 }
 
